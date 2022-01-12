@@ -1,0 +1,51 @@
+.header{
+    background-color:aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    border:black 2px solid; 
+    margin-left: 80px;
+    padding: 20px;
+}
+a:link{
+    margin-right: 25px;
+}
+.website{
+    background-color:lightseagreen;
+    color:darkblue;
+    border:black 2px solid;
+}
+.grid{
+    background-color:cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: darkcyan;
+    color:deepskyblue;
+    border: black 2px solid;
+}
+.grid img{
+    height: 400px;
+    width: 400px;
+}
+.item{
+    position: relative;
+}
+.item p{
+color: black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+.item:hover p{
+opacity: 1;
+
+}
+.item:hover img{
+opacity: 0.33;
+}
